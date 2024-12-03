@@ -1,0 +1,81 @@
+/* Estilo do corpo da página */
+body {
+    background: linear-gradient(to bottom, #80d8ff, #66bb6a); /* Degradê do azul para verde menta */
+    font-family: 'Arial', sans-serif; /* Fonte moderna e limpa */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do título principal */
+h1 {
+    color: #ffffff; /* Branco para o título, destacando-se sobre o degradê */
+    font-size: 3rem; /* Tamanho grande para o título */
+    font-weight: bold; /* Deixa o título mais marcante */
+    text-align: center; /* Centraliza horizontalmente */
+    margin: 20px 0; /* Espaçamento superior e inferior */
+}
+
+/* Estilo do formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco para o formulário */
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo dos rótulos (labels) */
+label {
+    display: block; /* Cada rótulo em sua própria linha */
+    font-size: 1.2rem; /* Texto maior */
+    color: #333; /* Texto em cinza escuro */
+    margin-bottom: 8px; /* Espaço entre o rótulo e o campo */
+    font-weight: bold;
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"], input[type="email"], input[type="password"], select {
+    width: 100%; /* Ocupa toda a largura do formulário */
+    padding: 12px; /* Espaçamento interno */
+    font-size: 1.1rem; /* Texto maior e mais visível */
+    background-color: #ffffff; /* Fundo branco */
+    border: none; /* Sem borda visível */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: box-shadow 0.3s ease; /* Transição suave ao focar */
+}
+
+/* Estilo ao focar nos campos */
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, select:focus {
+    box-shadow: 0 0 0 2px #80d8ff; /* Azul suave ao focar */
+    outline: none; /* Remove a borda padrão do navegador */
+}
+
+/* Estilo do botão */
+.btn {
+    display: block; /* Centraliza o botão no formulário */
+    margin: 20px auto; /* Espaçamento e centralização */
+    width: 50%; /* Botão ocupa metade da largura do formulário */
+    height: 50px; /* Altura fixa */
+    background-color: #007BFF; /* Azul forte */
+    color: white; /* Texto branco */
+    font-size: 1.2rem; /* Texto maior */
+    font-weight: bold; /* Destaque no texto */
+    border: none; /* Sem borda */
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão ao passar */
+    transition: background-color 0.3s ease; /* Suaviza a transição de cor */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.btn:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Efeito ao clicar no botão */
+.btn:active {
+    background-color: #003f7f; /* Azul ainda mais escuro ao clicar */
+}
